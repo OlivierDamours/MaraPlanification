@@ -19,16 +19,17 @@
               <div class="col-md-6">
               <p><div id="moveText">Vous apporter la tranquillité d’esprit pour la gestion de vos finances personnelles. En tant que
                 planificateurs financiers accrédités, nous sommes en mesure de vous assister dans toutes les décisions
-                financières qui surviennent lors des événements de la vie.  Que ce soit lors d’une naissance, d’un décès,
+                financières qui surviennent lors des événements de la vie.  Que ce soit lors d’une naissance, d’un décès,</div><div id="afterText">
                 d’un achat, d’une vente, d’un mariage ou d’une séparation, nous sommes en mesure de vous apporter conseil
-                 et expertise.</div> Nous nous ferons un devoir de vous accompagner et d’agir à titre de conseillers financiers pour
+                 et expertise.
+                  Nous nous ferons un devoir de vous accompagner et d’agir à titre de conseillers financiers pour
                   vous aider à faire les meilleurs choix selon chaque situation. En tant que <em>conseillers indépendants</em>,
                  nous avons choisi d’offrir un service en toute objectivité et personnalisé adapté à vos besoins et vos préoccupations.</p>
-                <p>Notre rôle : bâtir, avec vous, un plan d’actions permettant de faire face à vos obligations financières et vos
+                Notre rôle : bâtir, avec vous, un plan d’actions permettant de faire face à vos obligations financières et vos
                   objectifs d’épargne et vous aider à le réaliser. De plus, nous sommes en mesure de trouver pour vous les meilleurs
                   gestionnaires de fonds, les meilleurs produits financiers et les meilleures institutions financières.
                    Notre relation soutenue avec les différents gestionnaires et institutions nous permet d’être à l’affût des tendances
-                    du marché et ainsi vous conseiller adéquatement.</p>
+                    du marché et ainsi vous conseiller adéquatement.</div></p>
               </div>
               <div class="col-md-5">
                 <img id="moveimage" class="imgDistinction" src="Images/notre_distinction.jpg">
