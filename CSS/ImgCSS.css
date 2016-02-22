@@ -43,6 +43,13 @@
   margin-top: -6em;
   margin-bottom: 2em;
 }
+.giveSomeSpace
+{
+  margin-top: 13em;
+}
+.giveSomeSpaceInvestisseur {
+  margin-top: -2em;
+}
 @media (max-width: 991px)
 {
   .googleMapsCentered {
@@ -74,10 +81,7 @@
   font-weight: bold;
   text-decoration: underline;
 }
-.giveSomeSpace
-{
-  margin-top: 14.2em;
-}
+
 .giveSomeSpaceService {
   margin-top: 20em;
 }

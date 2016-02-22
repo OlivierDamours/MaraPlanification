@@ -13,7 +13,7 @@
         </div>
       </div>
       <div >
-        <div class="row">
+        <div class="giveSomeSpaceInvestisseur row">
           <div class="col-xl-6">
             <h2 class="title text-title">Pour les investisseurs</h2>
           </div>
