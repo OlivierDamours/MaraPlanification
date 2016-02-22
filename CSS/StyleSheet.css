@@ -837,7 +837,7 @@
 .bodyEntreprise {
   padding-top: 10%;
 }
-p, li {
+p, li, #moveText {
   font-size: 20px;
   font-family: adelle;
 }

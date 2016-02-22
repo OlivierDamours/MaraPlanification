@@ -17,11 +17,11 @@
           <article class="row">
             <div>
               <div class="col-md-6">
-              <p>Vous apporter la tranquillité d’esprit pour la gestion de vos finances personnelles. En tant que
+              <p><div id="moveText">Vous apporter la tranquillité d’esprit pour la gestion de vos finances personnelles. En tant que
                 planificateurs financiers accrédités, nous sommes en mesure de vous assister dans toutes les décisions
                 financières qui surviennent lors des événements de la vie.  Que ce soit lors d’une naissance, d’un décès,
                 d’un achat, d’une vente, d’un mariage ou d’une séparation, nous sommes en mesure de vous apporter conseil
-                 et expertise. Nous nous ferons un devoir de vous accompagner et d’agir à titre de conseillers financiers pour
+                 et expertise.</div> Nous nous ferons un devoir de vous accompagner et d’agir à titre de conseillers financiers pour
                   vous aider à faire les meilleurs choix selon chaque situation. En tant que <em>conseillers indépendants</em>,
                  nous avons choisi d’offrir un service en toute objectivité et personnalisé adapté à vos besoins et vos préoccupations.</p>
                 <p>Notre rôle : bâtir, avec vous, un plan d’actions permettant de faire face à vos obligations financières et vos
