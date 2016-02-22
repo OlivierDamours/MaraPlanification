@@ -277,7 +277,7 @@
     margin-top: 3em;
   }
   .nav {
-    margin-top: 1em;
+    margin-top: em;
     margin-right: 3.2em;
   }
   .nav-principal {
@@ -354,6 +354,9 @@
     margin-top: 0.75em;
     margin-left: 7em;
   }
+  .navbar-nav {
+    margin-top: 2em;
+  }
   .nav-principal {
     margin-top: 14em;
     margin-right: em;
@@ -381,6 +384,7 @@
   }
   .navbar-nav {
     width: 100px;
+    margin-top: 1em;
     background-color: #960000;
   }
 }
@@ -612,7 +616,7 @@
   color: #960000;
 }
 .navbar-default {
-  height: 200px;
+  height: 205px;
   background-color: #ececec;
 }
 .logo-mara {
@@ -627,7 +631,7 @@
   margin-top: 0.5em;
   font-size: 20px;
   color: #;
-  font-family: Times;
+  font-family: adelle;
   }
 }
 .lien-mara {
@@ -727,6 +731,17 @@
     margin-top: -0.06em;
     margin-left: -em;
   }
+  .navbar-toggle {
+    margin-right: 4em;
+    margin-top: 8em;
+  }
+  .navbar-brand {
+    margin-left: 1em;
+    margin-top: em;
+  }
+  .navbar-default {
+    height: 150px;
+  }
 }
 @media (max-width: 375px) {
   .imgDistinction {
@@ -737,7 +752,7 @@
   }
 }
 .font-family-nav {
-  font-family: Hoelfer Text;
+  font-family: adelle;
   font-size: 22px;
 }
 .font-mara {
@@ -748,13 +763,13 @@
   margin-top: 1em;
   margin-left: 8.5em;
   color: #666666;
-  font-family: Times;
+  font-family: adelle;
 }
 .fax-nav {
   font-size: 12px;
   margin-left: 8.5em;
   color: #666666;
-  font-family: Times;
+  font-family: adelle;
 }
 .sr-only {
   margin-top: -20%;
@@ -767,7 +782,7 @@
   width: 50%;
 }
 .tel {
-  font-family: times;
+  font-family: adelle;
 }
 .img-logo-sociaux-f {
   margin-top: -9em;
@@ -786,7 +801,7 @@
   height: 30px;
 }
 .mot-de-bienvenue {
-  font-family: Hoefler Text;
+  font-family: adelle;
   color: #555555;
 }
 .link-position {
@@ -824,13 +839,13 @@
 }
 p, li {
   font-size: 20px;
-  font-family: Times;
+  font-family: adelle;
 }
 h1 {
   font-size: 14px;
 }
 h2.notreEntreprise_text{
-  font-family: Hoefler-Text;
+  font-family: adelle;
   border-bottom: solid whitesmoke 3px;
   font-weight: bold;
 }
@@ -846,23 +861,23 @@ footer {
 .imgEquipe {
   margin-top: 2em;
   margin-left: 2.5em;
-  width: 235px;
-  height: 175px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  width: 180px;
+  height: 195px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 .imgEquipe-chantal {
   margin-top: 2em;
   margin-bottom: 4em;
   margin-left: 2.5em;
-  width: 235px;
-  height: 175px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  width: 180px;
+  height: 195px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .text {
@@ -894,20 +909,6 @@ footer {
 .title {
   font-size: 45px;
   margin-top: 1.5em;
-}
-@media (max-width: 991px) {
-  .font-family-nav {
-    font-size: 15px;
-  }
-  .lien-entreprise {
-    width: 180px;
-  }
-  .lien-service {
-    width: 220px;
-  }
-  .lien-contact {
-    width: 180px;
-  }
 }
 .footerpage {
   margin-top: 5em;
@@ -950,6 +951,7 @@ footer {
   height: 244px;
   width:240px;
   margin-left: 12.5em;
+  margin-top: -6.1em;
 }
 .textAdress {
   margin-top: em;
@@ -959,13 +961,164 @@ footer {
 .textAdresse2 {
   margin-top: 3.5em;
 }
+.text-martine {
+  margin-top: 2.5em;
+}
+.text-sarah {
+  margin-top: 2.5em;
+}
+.text-chantal {
+  margin-top: 2em;
+}
+.moveText {
+  margin-top: -3em;
+}
+.title-investisseur {
+  margin-top: 0.5em;
+}
+.imgInvestisseurs {
+  margin-top: -45em;
+  margin-left: 1.7em;
+  max-width: 450px;
+}
+.imgEntreprise {
+  margin-top: 1em;
+  max-width: ;
+}
+.navbar-default {
+  height: 206px;
+}
+.nav {
+  height: 61px;
+}
+.navbar-right {
+  height: 120px;
+}
+.lien-entreprise {
+  width: 300px;
+}
+.lien-service {
+  width: 300px;
+}
+.lien-contact {
+  width: 300px;
+}
 @media (max-width: 1199px) {
   .adressContact {
     margin-left: 5.2em;
   }
-@media (max-width: 991px) {
+  .imgEquipe-chantal {
+    margin-top: 5em;
+  }
+  .text-chantal {
+    margin-top: 5.5em;
+  }
+  .moveText {
+    margin-top: -1em;
+  }
+  .font-family-nav {
+    font-size: 18px;
+  }
+  .lien-entreprise {
+    width: 270px;
+  }
+  .lien-service {
+    width: 270px;
+  }
+  .lien-contact {
+    width: 260px;
+  }
+ @media (max-width: 991px) {
   .adressContact {
     margin-left: 3em;
+  }
+  .font-family-nav {
+    font-size: 15px;
+  }
+  .lien-entreprise {
+    width: 180px;
+  }
+  .lien-service {
+    width: 220px;
+  }
+  .lien-contact {
+    width: 180px;
+  }
+  .text-sarah {
+    margin-left: 17.5em;
+    margin-top: -13em;
+  }
+  .imgEquipe-chantal {
+    margin-top: 4em;
+  }
+  .text-chantal {
+    margin-left: 17.2em;
+    margin-top: -17em;
+  }
+}
+@media (max-width: 767px) {
+  .text-martine {
+    margin-left: 17.5em;
+    margin-right: 1em;
+    margin-top: -13.5em;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-toggle {
+    margin-top: 8.3em;
+    margin-right: 2.5em;
+  }
+  .imgDistinction {
+    max-width: 300px;
+    max-height: 180px;
+    margin-left: 1.5em;
+    margin-top: 1em;
+  }
+  .imgMission {
+    margin-left: 1.5em;
+    margin-top: 1em;
+    width: 300px;
+  }
+  .title-mission {
+    margin-top: -5.5em;
+  }
+  .textMission {
+    margin-top: -11em;
+  }
+  .navbar-brand {
+    margin-top: em;
+    margin-left: 0.5em;
+  }
+  .imgEquipe {
+    margin-left: 6.8em;
+  }
+  .imgEquipe-chantal {
+    margin-top: 2em;
+    margin-left: 6.8em;
+  }
+  .text-martine {
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .text-sarah {
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .text-chantal {
+    margin-top: -2.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-brand {
+    margin-left: 0.4em;
+    margin-top: -8.6em;
+  }
+  .navbar-toggle {
+
   }
 }
 #mission {
