@@ -43,6 +43,21 @@
   margin-top: -6em;
   margin-bottom: 2em;
 }
+#invest
+{
+  position: absolute;
+  top: 5%;
+}
+#equipe
+{
+  position: absolute;
+  top: %;
+}
+#entreprise
+{
+  position: absolute;
+  top:145%
+}
 .giveSomeSpace
 {
   margin-top: 13em;
@@ -132,21 +147,7 @@ li.dropdown:hover
 {
   background-color: #bbbbbb;
 }
-#invest
-{
-  position: absolute;
-  top: 5%;
-}
-#equipe
-{
-  position: absolute;
-  top: %;
-}
-#entreprise
-{
-  position: absolute;
-  top:145%
-}
+
 .spaceForNav
 {
   margin-bottom: 5em;
