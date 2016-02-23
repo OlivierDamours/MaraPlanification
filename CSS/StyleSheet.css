@@ -1165,7 +1165,7 @@ footer {
     max-width: 330px;
   }
   .navbar-collapse > .navbar-nav {
-    height: 260px;
+    height: 100%;
   }
   .carousel-holder {
     margin-top: 11.5em;
@@ -1230,10 +1230,10 @@ footer {
     width: 300px;
   }
   .title-mission {
-    margin-top: -5.5em;
+    margin-top: -10.5em;
   }
   .textMission {
-    margin-top: -11em;
+    margin-top: -1em;
   }
   .navbar-brand {
     margin-top: em;
@@ -1261,13 +1261,90 @@ footer {
     margin-left: 3em;
     margin-right: 3em;
   }
-}
-@media (max-width: 320px) {
-  .navbar-brand {
-    margin-left: 0.4em;
-    margin-top: -8.6em;
+  .imgEntreprise {
+    position: relative;
+    right: 8.5em;
+    width: 250px;
+  }
+  .imgInvestisseurs {
+    position: relative;
+    right: 10.5em;
+    width: 250px;
   }
   .navbar-toggle {
-
+    margin-right: 5em;
+  }
+}
+@media (max-width: 320px) {
+  .service-image {
+    max-width: 155px;
+    max-height: 120px;
+  }
+  .entreprise-image {
+    max-width: 155px;
+    max-height: 120px;
+  }
+  .fb-page {
+    margin-left: 2em;
+  }
+  .navbar-toggle {
+    margin-top: 8.3em;
+    margin-right: 2.5em;
+  }
+  .imgDistinction {
+    max-width: 300px;
+    max-height: 180px;
+    margin-left: 1.5em;
+    margin-top: 1em;
+  }
+  .imgMission {
+    margin-left: 1.5em;
+    margin-top: 1em;
+    width: 300px;
+  }
+  .title-mission {
+    margin-top: -10.5em;
+  }
+  .textMission {
+    margin-top: -1em;
+  }
+  .navbar-brand {
+    margin-top: em;
+    margin-left: 0.5em;
+  }
+  .imgEquipe {
+    margin-left: 6.8em;
+  }
+  .imgEquipe-chantal {
+    margin-top: 2em;
+    margin-left: 6.8em;
+  }
+  .text-martine {
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .text-sarah {
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .text-chantal {
+    margin-top: -2.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .imgEntreprise {
+    position: relative;
+    right: 8.5em;
+    width: 250px;
+  }
+  .imgInvestisseurs {
+    position: relative;
+    right: 10.5em;
+    width: 250px;
+  }
+  .navbar-toggle {
+    margin-right: 5em;
   }
 }

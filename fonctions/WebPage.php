@@ -15,6 +15,7 @@
           <meta name="author" content="Olivier D'amours , Jean-François Labonté" />
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://use.typekit.net/c/176d9f/1w;adelle,2,XK8:R:i3,XKB:R:i4,XK7:R:n3,XK9:R:n4;brandon-grotesque,2,Y2m:R:i4,Y2j:R:n3,Y2l:R:n4,Y2n:R:n5,Y2q:R:n7/l?3bb2a6e53c9684ffdc9a98f41d5b2a62f696ac03d709e180197d9a499facc6d58f57ad040e67b221f884f8b2a4c253668d3931edb330d7e8e85c5ab8f1dd6f6bdd2d10261221a7ca5dc813e922c6cc6b97e045f97f8fb0ee089f81c629430ad48d89f031641387f8b3bb5a80aa61d3cd80b8db330c82028dbbcca0bcb0ea188e4fa1bad1ceffbb4d44230f86dfb3238b4bf6e7e86924425deabf7775d2b1774f01a496d7e37ed1225ff44a32bcbb54965f832838afa65a0abb133aab145dd2d7da860e3b7bda400dc86e3b9faea26bf0758559c05ab2737dc06ae0555a7a16150f7064" media="all">
           <link rel="StyleSheet" href="CSS/StyleSheet.css" />
           <link rel="StyleSheet" href="CSS/ImgCSS.css" />
 
@@ -36,6 +37,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://use.typekit.net/c/176d9f/1w;adelle,2,XK8:R:i3,XKB:R:i4,XK7:R:n3,XK9:R:n4;brandon-grotesque,2,Y2m:R:i4,Y2j:R:n3,Y2l:R:n4,Y2n:R:n5,Y2q:R:n7/l?3bb2a6e53c9684ffdc9a98f41d5b2a62f696ac03d709e180197d9a499facc6d58f57ad040e67b221f884f8b2a4c253668d3931edb330d7e8e85c5ab8f1dd6f6bdd2d10261221a7ca5dc813e922c6cc6b97e045f97f8fb0ee089f81c629430ad48d89f031641387f8b3bb5a80aa61d3cd80b8db330c82028dbbcca0bcb0ea188e4fa1bad1ceffbb4d44230f86dfb3238b4bf6e7e86924425deabf7775d2b1774f01a496d7e37ed1225ff44a32bcbb54965f832838afa65a0abb133aab145dd2d7da860e3b7bda400dc86e3b9faea26bf0758559c05ab2737dc06ae0555a7a16150f7064" media="all">
             <link rel="StyleSheet" href="CSS/StyleSheet.css"/>
             <link rel="stylesheet" href="CSS/stylesheet.css">
             <link rel="StyleSheet" href="CSS/ImgCSS.css" />

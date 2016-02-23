@@ -144,7 +144,13 @@
   }
   #mission {
     position: absolute;
-    top: 95%;
+    top: 180%;
+  }
+}
+@media (max-width: 320px) {
+  #mission {
+    position: absolute;
+    top: 240%;
   }
 }
 .infoCenter
