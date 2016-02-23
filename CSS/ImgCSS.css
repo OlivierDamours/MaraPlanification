@@ -58,15 +58,16 @@
   position: absolute;
   top:265%
 }
-#mission {
-  margin-top: 70%;
-}
+
 .giveSomeSpace
 {
   margin-top: 13em;
 }
 .giveSomeSpaceInvestisseur {
   margin-top: 8em;
+}
+.giveSomeSpaceMission {
+  margin-top: -45em;
 }
 @media (max-width: 1199px) {
   #entreprise {
@@ -78,6 +79,10 @@
     margin-left: -0.5em;
     margin-top: -55.5em;
   }
+  .giveSomeSpaceMission {
+    margin-top: -37em;
+  }
+
 }
 @media (max-width: 991px)
 {
@@ -90,11 +95,12 @@
     position: absolute;
     top:300%;
   }
-  #mission {
-    top: 1%;
-  }
+
   .giveSomeSpaceInvestisseur {
     margin-top: 7em;
+  }
+  .giveSomeSpaceMission {
+    margin-top: 14em;
   }
   .imgInvestisseurs {
     margin-top: 2em;
@@ -115,6 +121,9 @@
   }
   .giveSomeSpaceInvestisseur {
     margin-top: 4em;
+  }
+  .giveSomeSpaceMission {
+    margin-top: 18em;
   }
   .imgInvestisseurs {
     margin-top: 2em;
@@ -149,6 +158,7 @@
   position: relative;
   top: 100%;
 }
+
 .faireBordure
 {
   border-top: 2.4px #d3d3d3 solid;

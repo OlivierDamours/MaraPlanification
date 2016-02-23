@@ -46,7 +46,7 @@
         <div>
           <div id="mission"></div>
           <div class="row">
-            <div class="emphaseTitre col-lg-6">
+            <div class="giveSomeSpaceMission emphaseTitre col-lg-6">
               <h3 class="title-mission title text-title">Notre Mission</h3>
             </div>
           </div>

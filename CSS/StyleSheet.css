@@ -858,7 +858,7 @@
 .bodyEntreprise {
   padding-top: 10%;
 }
-p, li, #moveText {
+p, li, #moveText, #afterText {
   font-size: 20px;
   font-family: adelle;
 }
@@ -918,14 +918,17 @@ footer {
 
 }
 .imgMission {
-  margin-top: em;
-  margin-left: 3.6em;
+  margin-top: -79.5em;
+  margin-left: 46em;
   height: 190px;
   width: 398px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.textMission {
+  margin-top: -45.5em;
 }
 .textDistinction {
   margin-top: -3em;
@@ -1055,6 +1058,13 @@ footer {
   .lien-contact {
     width: 260px;
   }
+  .imgMission {
+    margin-top: -62.4em;
+    margin-left: 38em;
+  }
+  .textMission {
+    margin-top: -37.6em;
+  }
  @media (max-width: 991px) {
   .adressContact {
     margin-left: 3em;
@@ -1086,10 +1096,17 @@ footer {
     margin-top: -10em;
   }
   .textMission {
-    margin-top: -25em;
+    margin-top: -9em;
+  }
+  .imgMission {
+    margin-top: 1em;
+    margin-left: 12em;
   }
   #mission {
     margin-top: 30%;
+  }
+  .imgDistinction {
+    margin-top: 0.5em;
   }
 }
 @media (max-width: 767px) {
@@ -1100,6 +1117,9 @@ footer {
   }
   .giveSomeSpace {
     margin-top: -1em;
+  }
+  .textMission {
+    margin-top: -4em;
   }
   .title-equipe {
     margin-top: 0.1em;
