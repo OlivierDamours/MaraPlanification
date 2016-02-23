@@ -87,6 +87,9 @@
     position: absolute;
     top:300%;
   }
+  #mission {
+    top: 100%;
+  }
   .giveSomeSpaceInvestisseur {
     margin-top: 7em;
   }

@@ -858,7 +858,7 @@
 .bodyEntreprise {
   padding-top: 10%;
 }
-p, li, #moveText, #afterText {
+p, li, #moveText {
   font-size: 20px;
   font-family: adelle;
 }
@@ -907,10 +907,10 @@ footer {
   margin-left: 3em:
 }
 .imgDistinction {
-
   width: 410px;
   height: 270px;
   margin-left: 3.4em;
+  margin-top: -em;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -1076,12 +1076,24 @@ footer {
     margin-left: 17.2em;
     margin-top: -17em;
   }
+  .title-mission {
+    margin-top: -10em;
+  }
+  .textMission {
+    margin-top: -25em;
+  }
 }
 @media (max-width: 767px) {
   .text-martine {
     margin-left: 17.5em;
     margin-right: 1em;
     margin-top: -13.5em;
+  }
+  .giveSomeSpace {
+    margin-top: -1em;
+  }
+  .title-equipe {
+    margin-top: 0.1em;
   }
 }
 @media (max-width: 375px) {

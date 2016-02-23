@@ -46,12 +46,12 @@
         <div>
           <div class="row" id="mission">
             <div class="emphaseTitre col-lg-6">
-              <h3 class="title text-title">Notre Mission</h3>
+              <h3 class="title-mission title text-title">Notre Mission</h3>
             </div>
           </div>
           <article class="row">
             <div>
-              <div class="col-md-6">
+              <div class="textMission col-md-6">
               <p>Notre mission est de vous conseiller à faire les bons choix de produits pour optimiser au maximum le rendement
                 de vos placements tout en respectant vos objectifs et vos besoins.</p>
               <p>Nous voulons vous aider à gérer au mieux vos avoirs financiers et ainsi vous garantir une belle retraite.</p>

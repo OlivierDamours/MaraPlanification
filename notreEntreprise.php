@@ -7,7 +7,7 @@
     <section>
         <div class="row">
           <div class="emphaseTitre col-lg-6">
-            <h3 class="title text-title">Notre Équipe</h3>
+            <h3 class="title-equipe title text-title">Notre Équipe</h3>
           </div>
         </div>
         <article class="row">
@@ -27,7 +27,7 @@
               <div class="col-sm-4">
                 <img class="imgText imgEquipe" src="Images/martineRainville.jpg" alt="Martine Rainville" />
               </div>
-              <div class="text col-md-6">
+              <div class="text-martine text col-md-6">
                 <p><strong><em>Martine Rainville</em></strong>, Panificateur Financier depuis 1994, membre de l&#8217;<strong><em>IQPF</em></strong>, représentante en
                   épargne collective auprès de Mérici Services Financiers et possède plus de 30 ans d’expérience
                   dans le domaine des services financiers. Depuis plus de 20 ans, elle agit à titre de consultante
@@ -39,7 +39,7 @@
                 <div class="col-md-4">
                   <img class="imgText imgEquipe" src="Images/sarahVerreault.jpg" alt="Sarah Verreault" />
                 </div>
-                <div class="text col-md-6">
+                <div class="text-sarah text col-md-6">
               <p><strong><em>Sarah Verreault</em></strong>, représentante en épargne collective auprès de Mérici Services Financiers, détient un
                 baccalauréat en administration des affaires et s’est spécialisée en gestion des risques et assurances.
                 Elle possède également le titre <strong><em>CRM</em></strong> qui lui procure la désignation de
@@ -51,7 +51,7 @@
             <div class="col-md-4">
               <img class="imgText imgEquipe-chantal" src="Images/chantalBilodeau.jpg" alt="Chantal Bilodeau" />
             </div>
-            <div class="text col-md-6">
+            <div class="text-chantal text col-md-6">
               <p><strong><em>Chantal Bilodeau</em></strong>, adjointe administrative,
                  est responsable du service à la clientèle et du suivi depuis plus de 17 ans.</p>
           </div>
