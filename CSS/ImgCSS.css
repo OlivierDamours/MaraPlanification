@@ -56,7 +56,7 @@
 #entreprise
 {
   position: absolute;
-  top:265%
+  top:215%
 }
 #mission {
   position: absolute;
@@ -75,7 +75,7 @@
 @media (max-width: 1199px) {
   #entreprise {
     position: absolute;
-    top:288%;
+    top:235%;
   }
   .giveSomeSpaceMission {
     margin-top: -2em;
@@ -96,11 +96,11 @@
   }
   #entreprise {
     position: absolute;
-    top:300%;
+    top:250%;
   }
   #mission {
     position: absolute;
-    top: 65%;
+    top: 85%;
   }
   .giveSomeSpaceInvestisseur {
     margin-top: 7em;
@@ -140,11 +140,11 @@
   }
   #entreprise {
     position: absolute;
-    top: 305%;
+    top: 250%;
   }
   #mission {
     position: absolute;
-    top: 100%;
+    top: 95%;
   }
 }
 .infoCenter

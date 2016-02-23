@@ -1120,6 +1120,9 @@ footer {
   .navbar-collapse > .navbar-nav {
     height: 250px;
   }
+  .title-distinction {
+    margin-top: 0.5em;
+  }
   .text-martine {
     margin-left: 17.5em;
     margin-right: 1em;
@@ -1148,6 +1151,17 @@ footer {
   }
 }
 @media (max-width: 375px) {
+  .service-image {
+    max-width: 155px;
+    max-height: 120px;
+  }
+  .entreprise-image {
+    max-width: 155px;
+    max-height: 120px;
+  }
+  .fb-page {
+    margin-left: 2em;
+  }
   .navbar-toggle {
     margin-top: 8.3em;
     margin-right: 2.5em;
