@@ -910,7 +910,7 @@ footer {
   width: 410px;
   height: 270px;
   margin-left: 3.4em;
-  margin-top: -em;
+  margin-top: -2em;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -926,6 +926,9 @@ footer {
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.textDistinction {
+  margin-top: -3em;
 }
 .title {
   font-size: 45px;
