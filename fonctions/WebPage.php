@@ -94,9 +94,9 @@
                   <li class="dropdown lien-service"><a class="font-family-nav" data-toggle="dropdown" href="#">Service Personnalisés
                    <span class="caret"></span></a>
                    <ul class="dropdown-menu">
-                     <li><a class="font-family-nav" href="../serviceConseil.php#invest">Investisseurs</a></li>
-                     <li><a class="font-family-nav" href="../serviceConseil.php#entreprise">Entreprises</a></li>
-                     <li><a class="font-family-nav" href="../lienEssentiel.php">Lien Essentiels</a></li>
+                     <li class="color"><a class="font-family-nav" href="../serviceConseil.php#invest">Investisseurs</a></li>
+                     <li class="color"><a class="font-family-nav" href="../serviceConseil.php#entreprise">Entreprises</a></li>
+                     <li class="color"><a class="font-family-nav" href="../lienEssentiel.php">Lien Essentiels</a></li>
                    </ul>
                   </li>
                   <li class="dropdown lien-contact"><a href="../contact.php" class="font-family-nav contact-position">Contactez-nous</a></li>
@@ -180,9 +180,9 @@
                 <li class="dropdown lien-service"><a class="font-family-nav" data-toggle="dropdown" href="#">Service Personnalisés
                  <span class="caret"></span></a>
                  <ul class="dropdown-menu">
-                   <li><a class="font-family-nav" href="../serviceConseil.php#invest">Investisseurs</a></li>
-                   <li><a class="font-family-nav" href="../serviceConseil.php#entreprise">Entreprises</a></li>
-                   <li><a class="font-family-nav" href="../lienEssentiel.php">Lien Essentiels</a></li>
+                   <li class="color"><a class="font-family-nav" href="../serviceConseil.php#invest">Investisseurs</a></li>
+                   <li class="color"><a class="font-family-nav" href="../serviceConseil.php#entreprise">Entreprises</a></li>
+                   <li class="color"><a class="font-family-nav" href="../lienEssentiel.php">Lien Essentiels</a></li>
                  </ul>
                 </li>
                 <li class="dropdown lien-contact"><a href="../contact.php" class="font-family-nav contact-position">Contactez-nous</a></li>
@@ -225,6 +225,7 @@
     $('.dropdown-menu input, .dropdown-menu label').click(function(e) {
     e.stopPropagation();
     });
+
     </script>
     </body>
     </html>

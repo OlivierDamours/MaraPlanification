@@ -1,5 +1,4 @@
 
-var links = document.getElementsByTagName('a');
 //Function to work the image used for the distinction page
 function DistinctionImage()
 {
@@ -49,6 +48,7 @@ function DistinctionImage()
 
 }
 
+
 window.onresize = function()
 {
   DistinctionImage();
@@ -57,7 +57,7 @@ window.onload = function()
 {
   DistinctionImage();
 }
-links.onclick = function()
+$('.color').click(function()
 {
-  window.location.reload(true);
-}
+  location.reload();
+});
