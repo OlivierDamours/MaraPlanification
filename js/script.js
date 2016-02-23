@@ -27,9 +27,17 @@ function DistinctionImage()
     {
       imageTop.style.marginRight = "";
     }
-    else if(screen.width < 990)
+    else if(screen.width < 990 && screen.width > 375)
+    {
+      imageTop.style.marginRight = "10em";
+    }
+    else if(screen.width <= 375 && screen.width > 320)
     {
       imageTop.style.marginRight = "3em";
+    }
+    else if(screen.width <= 320)
+    {
+      imageTop.style.marginRight = "1em";
     }
 
   }
