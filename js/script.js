@@ -1,13 +1,17 @@
 
-
+//Function to work the image used for the distinction page
 function DistinctionImage()
 {
+  //get the image to the top
   var imageTop = document.getElementById('moveImageTop');
+  //get the image to the bottom
   var imageBotton = document.getElementById("moveImageBottom");
+  //get the text area I need to work with to make sure the float works well
   var textDistinction = document.getElementById('moveText');
-
+  //The treshold for the screen resize position
   if(screen.width < 1200)
   {
+    //Remove the bottom image informations to leave the top as the only image present
     imageTop.className = "imgDistinction";
     imageTop.src = "Images/notre_distinction.jpg";
     imageBotton.className = "";
@@ -17,20 +21,26 @@ function DistinctionImage()
   }
   else if(screen.width > 1200)
   {
-    imageBotton.className = "imgDistinction";
-    imageBotton.src = "Images/notre_distinction.jpg";
+    //Remove the top image to put the bottom image in action
+
     imageTop.className = "";
     imageTop.src = "";
+
+    imageBotton.className = "imgDistinction";
+    imageBotton.src = "Images/notre_distinction.jpg";
+
     imageTop.style.float = "";
-    imageTop.style.position = "relative";
 
     textDistinction.style.marginRight = "";
-
   }
 
 }
 
 window.onresize = function()
+{
+  DistinctionImage();
+}
+window.onload = function()
 {
   DistinctionImage();
 }
