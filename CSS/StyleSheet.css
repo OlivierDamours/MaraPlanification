@@ -722,14 +722,35 @@
 @media (max-width: 767px) {
   .navbar-collapse > .navbar-nav {
     border-top-left-radius: 1px;
-    width: 1000px;
+    width: 105%;
+    height: 200px;
     margin-top: 0em;
-    margin-left: -em;
+    margin-left: -1em;
   }
   .navbar-collapse > .navbar-right {
-    width: 950px;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    width: 105%;
     margin-top: -0.06em;
-    margin-left: -em;
+    margin-left: -1em;
+  }
+  .lien-nav {
+    margin-left: 1.5em;
+  }
+  .fax-nav {
+    margin-left: -1em;
+  }
+  .tel-nav {
+    margin-left: -1em;
+  }
+  .lien-contact {
+    margin-left: -1em;
+  }
+  .img-logo-sociaux-l {
+    margin-left: -3em;
+  }
+  .img-logo-sociaux-f {
+    margin-left: -3em;
   }
   .navbar-toggle {
     margin-right: 4em;

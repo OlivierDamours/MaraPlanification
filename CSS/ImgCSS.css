@@ -46,7 +46,7 @@
 #invest
 {
   position: absolute;
-  top: 5%;
+  top: 1%;
 }
 #equipe
 {
@@ -56,14 +56,25 @@
 #entreprise
 {
   position: absolute;
-  top:145%
+  top:265%
 }
 .giveSomeSpace
 {
   margin-top: 13em;
 }
 .giveSomeSpaceInvestisseur {
-  margin-top: -2em;
+  margin-top: 8em;
+}
+@media (max-width: 1199px) {
+  #entreprise {
+    position: absolute;
+    top:288%;
+  }
+  .imgInvestisseurs {
+    max-width: 390px;
+    margin-left: -0.5em;
+    margin-top: -55.5em;
+  }
 }
 @media (max-width: 991px)
 {
@@ -71,6 +82,17 @@
     width: 420px;
     margin-top: -17.2em;
     margin-left: 0.1em;
+  }
+  #entreprise {
+    position: absolute;
+    top:300%;
+  }
+  .giveSomeSpaceInvestisseur {
+    margin-top: 7em;
+  }
+  .imgInvestisseurs {
+    margin-top: 2em;
+    margin-left: 12em;
   }
 }
 @media (max-width: 767px) {
@@ -84,6 +106,16 @@
   }
   .navbar-default {
     height: 155px;
+  }
+  .giveSomeSpaceInvestisseur {
+    margin-top: 4em;
+  }
+  .imgInvestisseurs {
+    margin-top: 2em;
+    margin-left: 12em;
+  }
+  .imgEntreprise {
+    margin-left: 8.5em;
   }
 }
 .infoCenter

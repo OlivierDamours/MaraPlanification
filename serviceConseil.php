@@ -7,11 +7,6 @@
   <main  class="container" role="main">
     <section>
       <div id="equipe"></div>
-      <div  class="row">
-        <div class=" col-xl-6">
-          <h2 class="title notreEntreprise_text">Service Personalisés Offerts</h2>
-        </div>
-      </div>
       <div >
         <div class="giveSomeSpaceInvestisseur row">
           <div class="col-xl-6">
