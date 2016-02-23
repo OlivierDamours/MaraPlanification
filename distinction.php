@@ -16,6 +16,9 @@
           </div>
           <article class="row">
             <div>
+              <div id="premiereImage">
+                <img id="moveimage" class="imgDistinction" src="Images/notre_distinction.jpg">
+              </div>
               <div class="col-md-6">
               <p><div id="moveText">Vous apporter la tranquillité d’esprit pour la gestion de vos finances personnelles. En tant que
                 planificateurs financiers accrédités, nous sommes en mesure de vous assister dans toutes les décisions
