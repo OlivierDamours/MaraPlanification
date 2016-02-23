@@ -19,16 +19,19 @@ function DistinctionImage()
     imageBotton.className = "";
     imageBotton.src = "";
     imageTop.style.float = "right";
-    bootstrap.className = "";
+
     textDistinction.style.marginRight = "30px";
-    if(screen.width > 990)
+
+
+    if(screen.width >= 990)
     {
       imageTop.style.marginRight = "";
     }
-    else if(scree.width < 990)
+    else if(screen.width < 990)
     {
-      imageTop.style.marginRight = "2.2em";
+      imageTop.style.marginRight = "3em";
     }
+
   }
   else if(screen.width > 1200)
   {
