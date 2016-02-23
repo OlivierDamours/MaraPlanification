@@ -74,5 +74,7 @@ $('.dropdown-menu input, .dropdown-menu label').click(function(e) {
     e.stopPropagation();
 });
 </script>
+<script src="js/script.js"> </script>
+
   </body>
 </html>
