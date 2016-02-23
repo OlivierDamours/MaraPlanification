@@ -16,8 +16,9 @@
           </div>
           <article class="row">
             <div>
+              <!---Image du haut--->
               <div id="premiereImage">
-                <img id="moveimage" class="imgDistinction" src="Images/notre_distinction.jpg">
+                <img id="moveImageTop">
               </div>
               <div class="col-md-6">
               <p><div id="moveText">Vous apporter la tranquillité d’esprit pour la gestion de vos finances personnelles. En tant que
@@ -35,7 +36,7 @@
                     du marché et ainsi vous conseiller adéquatement.</div></p>
               </div>
               <div class="col-md-5">
-                <img id="moveimage" class="imgDistinction" src="Images/notre_distinction.jpg">
+                <img id="moveImageBottom" class="imgDistinction" src="Images/notre_distinction.jpg">
               </div>
 
             </article>
