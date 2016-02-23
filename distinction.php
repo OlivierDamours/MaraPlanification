@@ -11,7 +11,7 @@
         <div>
           <div  class="row">
             <div class="emphaseTitre col-lg-6">
-              <h3 class="title text-title">Notre Distinction</h3>
+              <h3 class="title-distinction title text-title">Notre Distinction</h3>
             </div>
           </div>
           <article class="row">
@@ -44,7 +44,7 @@
       </section>
       <section>
         <div id="mission"></div>
-        <div>          
+        <div>
           <div class="row">
             <div class="giveSomeSpaceMission emphaseTitre col-lg-6">
               <h3 class="title-mission title text-title">Notre Mission</h3>
