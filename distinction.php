@@ -43,8 +43,8 @@
         </div>
       </section>
       <section>
-        <div>
-          <div id="mission"></div>
+        <div id="mission"></div>
+        <div>          
           <div class="row">
             <div class="giveSomeSpaceMission emphaseTitre col-lg-6">
               <h3 class="title-mission title text-title">Notre Mission</h3>
