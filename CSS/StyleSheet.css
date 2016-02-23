@@ -1216,7 +1216,7 @@ footer {
   }
   .navbar-toggle {
     margin-top: 8.3em;
-    margin-right: 2.5em;
+    margin-right: 5.5em;
   }
   .imgDistinction {
     max-width: 300px;
@@ -1228,6 +1228,17 @@ footer {
     margin-left: 1.5em;
     margin-top: 1em;
     width: 300px;
+  }
+  .imgInvestisseurs {
+    position: relative;
+    right: 9em;
+    width: 250px;
+  }
+  .imgEntreprise {
+    position: relative;
+    top: 1em;
+    right: 6em;
+    max-width: 250px;
   }
   .title-mission {
     margin-top: -5.5em;
@@ -1264,10 +1275,18 @@ footer {
 }
 @media (max-width: 320px) {
   .navbar-brand {
-    margin-left: 0.4em;
-    margin-top: -8.6em;
+    margin-left: em;
+    margin-top: em;
   }
   .navbar-toggle {
 
+    right: em;
   }
+  .navbar-collapse {
+    width:px;
+  }
+  .navbar-collapse > .navbar-nav {
+    margin-top: em;
+  }
+
 }
