@@ -147,6 +147,12 @@
     top: 95%;
   }
 }
+@media (max-width: 678px) {
+  #entreprise {
+    position: absolute;
+    top: 280%;
+  }
+}
 .infoCenter
 {
   text-align: center;
