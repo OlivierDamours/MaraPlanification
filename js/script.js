@@ -15,11 +15,20 @@ function DistinctionImage()
     //Remove the bottom image informations to leave the top as the only image present
     imageTop.className = "imgDistinction";
     imageTop.src = "Images/notre_distinction.jpg";
+
     imageBotton.className = "";
     imageBotton.src = "";
     imageTop.style.float = "right";
     bootstrap.className = "";
     textDistinction.style.marginRight = "30px";
+    if(screen.width > 990)
+    {
+      imageTop.style.marginRight = "";
+    }
+    else if(scree.width < 990)
+    {
+      imageTop.style.marginRight = "2.2em";
+    }
   }
   else if(screen.width > 1200)
   {
@@ -32,6 +41,7 @@ function DistinctionImage()
     imageBotton.src = "Images/notre_distinction.jpg";
     boostrapRemoval.className = "col-md-5";
     imageTop.style.float = "";
+    imageBotton.style.marginLeft= "7em";
 
     textDistinction.style.marginRight = "";
   }
