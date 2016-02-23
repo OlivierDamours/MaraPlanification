@@ -20,7 +20,7 @@
               <div id="premiereImage">
                 <img id="moveImageTop">
               </div>
-              <div class="col-md-6">
+              <div class="textDistinction col-md-6">
               <p><div id="moveText">Vous apporter la tranquillité d’esprit pour la gestion de vos finances personnelles. En tant que
                 planificateurs financiers accrédités, nous sommes en mesure de vous assister dans toutes les décisions
                 financières qui surviennent lors des événements de la vie.  Que ce soit lors d’une naissance, d’un décès,</div><div id="afterText">
@@ -44,7 +44,8 @@
       </section>
       <section>
         <div>
-          <div class="row" id="mission">
+          <div id="mission"></div>
+          <div class="row">
             <div class="emphaseTitre col-lg-6">
               <h3 class="title-mission title text-title">Notre Mission</h3>
             </div>

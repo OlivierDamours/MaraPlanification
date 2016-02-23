@@ -1024,6 +1024,9 @@ footer {
 .lien-contact {
   width: 300px;
 }
+#mission {
+  margin-top: 70%;
+}
 @media (max-width: 1199px) {
   .adressContact {
     margin-left: 5.2em;
@@ -1081,6 +1084,9 @@ footer {
   }
   .textMission {
     margin-top: -25em;
+  }
+  #mission {
+    margin-top: 30%;
   }
 }
 @media (max-width: 767px) {
@@ -1153,7 +1159,4 @@ footer {
   .navbar-toggle {
 
   }
-}
-#mission {
-  margin-top: 70%;
 }

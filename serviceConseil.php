@@ -73,7 +73,7 @@
           <div class="col-md-5">
             <img class="imgInvestisseurs" src="Images/investisseurs.jpg">
           </div>
-          <div id="entreprise"></div>
+          
         </article>
       </div>
       <div>
