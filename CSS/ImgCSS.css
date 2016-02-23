@@ -147,6 +147,24 @@
     top: 95%;
   }
 }
+<<<<<<< Updated upstream
+=======
+@media (max-width: 678px) {
+  #entreprise {
+    position: absolute;
+    top: 280%;
+  }
+}
+@media (max-width: 375px) {
+  #entreprise {
+    position: absolute;
+    top: 350%;
+  }
+  .adressContact {
+    margin-left: -3em;
+  }
+}
+>>>>>>> Stashed changes
 .infoCenter
 {
   text-align: center;
