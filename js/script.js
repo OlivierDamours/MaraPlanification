@@ -2,6 +2,7 @@
 //Function to work the image used for the distinction page
 function DistinctionImage()
 {
+  var boostrapRemoval = document.getElementById("secondImage");
   //get the image to the top
   var imageTop = document.getElementById('moveImageTop');
   //get the image to the bottom
@@ -17,6 +18,7 @@ function DistinctionImage()
     imageBotton.className = "";
     imageBotton.src = "";
     imageTop.style.float = "right";
+    bootstrap.className = "";
     textDistinction.style.marginRight = "30px";
   }
   else if(screen.width > 1200)
@@ -28,7 +30,7 @@ function DistinctionImage()
 
     imageBotton.className = "imgDistinction";
     imageBotton.src = "Images/notre_distinction.jpg";
-
+    boostrapRemoval.className = "col-md-5";
     imageTop.style.float = "";
 
     textDistinction.style.marginRight = "";

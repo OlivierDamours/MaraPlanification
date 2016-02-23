@@ -35,7 +35,7 @@
                    Notre relation soutenue avec les différents gestionnaires et institutions nous permet d’être à l’affût des tendances
                     du marché et ainsi vous conseiller adéquatement.</div></p>
               </div>
-              <div class="col-md-5">
+              <div id="secondImage" class="col-md-5">
                 <img id="moveImageBottom" class="imgDistinction" src="Images/notre_distinction.jpg">
               </div>
 
