@@ -22,23 +22,40 @@ function DistinctionImage()
 
     textDistinction.style.marginRight = "30px";
 
-
+    //The screen width will change the image position 
     if(screen.width >= 990)
     {
       imageTop.style.marginRight = "";
     }
-    else if(screen.width < 990 && screen.width > 375)
-    {
-      imageTop.style.marginRight = "10em";
-    }
-    else if(screen.width <= 375 && screen.width > 320)
+    else if(screen.width < 990 && screen.width > 640)
     {
       imageTop.style.marginRight = "3em";
     }
-    else if(screen.width <= 320)
+    else if(screen.width <= 640 && screen.width >= 550)
+    {
+
+      imageTop.style.marginRight = "8em";
+    }
+    else if(screen.width == 384)
+    {
+      imageTop.style.marginRight = '1em';
+    }
+    else if(screen.width == 375)
+    {
+      imageTop.style.marginRight = "3em";
+    }
+    else if(screen.width == 360)
+    {
+      imageTop.style.marginRight = '2.8em';
+    }
+    else if(screen.width == 320)
     {
       imageTop.style.marginRight = "1em";
     }
+
+
+
+
 
   }
   else if(screen.width > 1200)
