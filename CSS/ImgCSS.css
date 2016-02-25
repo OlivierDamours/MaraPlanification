@@ -247,6 +247,12 @@ tr.importantData
 table, .moveText
 {
   margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.moveTextURL {
+  font-size: 10px;
+  margin-right: 8em;
+  margin-left: -1em;
 }
 li
 {

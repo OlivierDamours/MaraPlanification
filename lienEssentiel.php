@@ -54,7 +54,7 @@
       </article>
       <article class="row">
         <h3 class="col-lg-6">Tables d’impôts et autres</h3>
-        <div class="moveText row">
+        <div class="moveTextURL row">
           <p class="col-md-8"><a href="http://www.planiguide.ca/tableaux/quebec/">http://www.planiguide.ca/tableaux/quebec/</a></p>
         </div>
       </article>

@@ -3,7 +3,7 @@
   EnteteHTML("Notre Entreprise");
   NavBarHTML();
 ?>
-  <main class="giveSomeSpace container" role="main">
+  <main class="giveSomeSpace container container-entreprise" role="main">
     <section>
         <div class="row">
           <div class="emphaseTitre col-lg-6">

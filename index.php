@@ -9,7 +9,7 @@
             <div class="col-md-8 ">
               <h2 class="title mot-de-bienvenue">Mot de bienvenue</h2>
               <article>
-                <p "mot-de-bienvenue">Bienvenue sur la page Web de notre entreprise. Planification Financière Mara est une
+                <p "text-mot-de-bienvenue">Bienvenue sur la page Web de notre entreprise. Planification Financière Mara est une
                   équipe qui a à cœur votre réussite financière et la réalisation de vos objectifs. Notre spécialité : la
                   planification des revenus de retraite, la création de richesse et le « coaching financier ». Nous vous invitons
                    à parcourir davantage notre site internet afin de découvrir l’étendue de nos services-conseils. Au plaisir de
