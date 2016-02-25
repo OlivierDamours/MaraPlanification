@@ -766,8 +766,7 @@
     margin-left: -3em;
   }
   .navbar-toggle {
-    margin-right: 4em;
-    margin-top: 8em;
+
   }
   .navbar-brand {
     margin-left: 1em;
@@ -987,7 +986,7 @@ footer {
   padding-left: 0.7em;
 }
 .textAdresse2 {
-  margin-top: 3.5em;
+  margin-top: 0.5em;
 }
 .text-martine {
   margin-top: 2.5em;
@@ -1043,7 +1042,7 @@ footer {
   width: 155px;
 }
 .lien-entreprise {
-  width: 220px;
+  width: 250px;
 }
 @media (max-width: 1199px) {
   .service-image {
@@ -1155,6 +1154,7 @@ footer {
   }
 }
 @media (max-width: 767px) {
+
   .fb-page {
     margin-left: 1.5em;
     width: 320px;
@@ -1171,9 +1171,6 @@ footer {
   .carousel-holder {
     margin-top: 11.5em;
     margin-right: 1em;
-  }
-  .title-distinction {
-    margin-top: 0.5em;
   }
   .text-martine {
     margin-left: 17.5em;
@@ -1200,7 +1197,27 @@ footer {
     margin-top: 0.1em;
   }
   .imgDistinction {
+    margin-top: 0.5em;
     margin-left: 4em;
+  }
+  .title-investisseur {
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+  }
+  .title-entreprise {
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+  }
+  .title-mission {
+    margin-top: -10.5em;
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+  }
+  .navbar-toggle {
+    -webkit-overflow-scrolling: touch;
+
+
   }
 }
 @media (max-width: 375px) {
@@ -1216,8 +1233,7 @@ footer {
     margin-left: 2em;
   }
   .navbar-toggle {
-    margin-top: 8.3em;
-    margin-right: 2.5em;
+
   }
   .imgDistinction {
     max-width: 300px;
@@ -1237,8 +1253,8 @@ footer {
     margin-top: -1em;
   }
   .navbar-brand {
-    margin-top: em;
-    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-left: -0.5em;
   }
   .imgEquipe {
     margin-left: 6.8em;
@@ -1273,24 +1289,44 @@ footer {
     width: 250px;
   }
   .navbar-toggle {
-    margin-right: 5em;
+
+  }
+  .title-investisseur {
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+  }
+  .title-entreprise {
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+  }
+  .title-mission {
+    margin-top: -10.5em;
+    margin-left: 0.3em;
+    margin-right: 0.35em;
   }
 }
 @media (max-width: 320px) {
+
   .service-image {
-    max-width: 155px;
-    max-height: 120px;
+    max-width: 130px;
+    max-height: 90px;
+    margin-right: 1em;
   }
   .entreprise-image {
-    max-width: 155px;
-    max-height: 120px;
+    max-width: 130px;
+    max-height: 90px;
   }
   .fb-page {
-    margin-left: 2em;
+    margin-left: 0.5em;
   }
   .navbar-toggle {
-    margin-top: 8.3em;
-    margin-right: 2.5em;
+    margin-top: 8.6em;
+    margin-right: 2em;
+  }
+  .navbar-collapse {
+    margin-top: em;
+    width: 115%;
   }
   .imgDistinction {
     max-width: 300px;
@@ -1310,8 +1346,9 @@ footer {
     margin-top: -1em;
   }
   .navbar-brand {
-    margin-top: em;
-    margin-left: 0.5em;
+    position: absolute;
+    top: 0.01%;
+    left: 0.01%;
   }
   .imgEquipe {
     margin-left: 6.8em;
@@ -1346,6 +1383,26 @@ footer {
     width: 250px;
   }
   .navbar-toggle {
-    margin-right: 5em;
+  }
+  .title-investisseur {
+    margin-top: 1em;
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+  }
+  .title-entreprise {
+    margin-left: 0.3em;
+    margin-right: 0.35em;
+  }
+  .tel-nav {
+    margin-left: 3em;
+  }
+  .fax-nav {
+    margin-left: 3em;
+  }
+  .img-logo-sociaux-l {
+    margin-left: 12.5em;
+  }
+  .img-logo-sociaux-f {
+    margin-left: 1em;
   }
 }

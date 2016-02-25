@@ -10,7 +10,7 @@
       <div >
         <div class="giveSomeSpaceInvestisseur row">
           <div class="col-xl-6">
-            <h2 class="title text-title">Pour les investisseurs</h2>
+            <h2 class="title-investisseur title text-title">Pour les investisseurs</h2>
           </div>
         </div>
         <article class="row">
@@ -80,7 +80,7 @@
         <div id="entreprise"></div>
         <div class="row">
           <div class="col-xl-6">
-            <h2 class="title text-title">Pour les Entreprises</h2>
+            <h2 class="title-entreprise title text-title">Pour les Entreprises</h2>
           </div>
         </div>
         <article>
