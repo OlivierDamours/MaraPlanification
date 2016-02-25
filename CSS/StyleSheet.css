@@ -1216,6 +1216,9 @@ footer {
   }
   .navbar-toggle {
     -webkit-overflow-scrolling: touch;
+    margin-right: 2em;
+    margin-top: 8em;
+    margin-left: 0.5em;
 
 
   }
@@ -1321,8 +1324,6 @@ footer {
     margin-left: 0.5em;
   }
   .navbar-toggle {
-    margin-top: 8.6em;
-    margin-right: 2em;
   }
   .navbar-collapse {
     margin-top: em;
@@ -1351,11 +1352,11 @@ footer {
     left: 0.01%;
   }
   .imgEquipe {
-    margin-left: 6.8em;
+    margin-left: 4.8em;
   }
   .imgEquipe-chantal {
     margin-top: 2em;
-    margin-left: 6.8em;
+    margin-left: 4.8em;
   }
   .text-martine {
     margin-top: 1.5em;
