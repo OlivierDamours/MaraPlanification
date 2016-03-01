@@ -56,7 +56,7 @@
 #entreprise
 {
   position: absolute;
-  top:215%
+  top:210%
 }
 #mission {
   position: absolute;
@@ -161,7 +161,10 @@
   }
   .googleMapsCentered {
     margin-top: 1em;
-    margin-left: -15em;
+    margin-left: -20em;
+    max-width: 320px;
+    max-height: 170px;
+    border-bottom-left-radius: 30px;
   }
   .navbar-brand {
     margin-left: -0.6em;
