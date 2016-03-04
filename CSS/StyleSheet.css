@@ -859,6 +859,7 @@
 .bodyEntreprise {
   padding-top: 10%;
 }
+
 p, li, #moveText, #afterText {
   font-size: 20px;
   font-family: adelle;
@@ -936,7 +937,9 @@ footer {
 }
 .title {
   font-size: 45px;
-  margin-top: 1.5em;
+  margin-top: 1em;
+  margin-right: 0.1em;
+  margin-left: 0.01em;
 }
 .footerpage {
   margin-top: 5em;
@@ -987,7 +990,7 @@ footer {
   padding-left: 0.7em;
 }
 .textAdresse2 {
-  margin-top: 0.5em;
+  margin-top: 2.7em;
 }
 .text-martine {
   margin-top: 2.5em;
@@ -1002,10 +1005,9 @@ footer {
   margin-top: -3em;
 }
 .title-investisseur {
-  ;
   margin-top: 1.4em;
-  margin-left: 0.35em;
-  margin-right: 0.35em;
+  margin-left: 0.04em;
+  margin-right: 0.23em;
 }
 .imgInvestisseurs {
   margin-top: -45em;
@@ -1013,8 +1015,8 @@ footer {
   max-width: 430px;
 }
 .title-entreprise {
-  margin-left: 0.35em;
-  margin-right: 0.35em;
+  margin-left: 0.04em;
+  margin-right: 0.23em;
 }
 .imgEntreprise {
   margin-top: 1em;
@@ -1030,15 +1032,20 @@ footer {
   height: 120px;
 }
 .lien-entreprise {
+  margin-left: 3em;
+  padding-top: -3em;
   width: 300px;
+  height: px;
 }
 .lien-nav {
   margin-left: 5em;
 }
 .lien-service {
+  margin-left: em;
   width: 300px;
 }
 .lien-contact {
+  margin-left:em;
   width: 300px;
 }
 .service-image {
@@ -1095,7 +1102,8 @@ footer {
     width: 270px;
   }
   .lien-contact {
-    width: 260px;
+    padding-left: 1em;
+    width: 203px;
   }
   .imgMission {
     margin-top: -1em;
@@ -1126,13 +1134,16 @@ footer {
   }
   .lien-entreprise {
     width: 185px;
+    margin-left: 1em;
+    padding-left: 0.5em;
   }
   .lien-service {
     width: 220px;
+    padding-left: 0.5em;
   }
   .lien-contact {
-    width: 200px;
-    padding-left: 1em;
+    width: 180px;
+    padding-left: 0.01em;
   }
   .lien-mara {
     width: 100px;
@@ -1163,6 +1174,12 @@ footer {
   }
   .imgDistinction {
     margin-top: 0.5em;
+  }
+  .title {
+    font-size: 45px;
+    margin-top: 1em;
+    margin-right: 0.4em;
+    margin-left: 0.01em;
   }
 }
 @media (max-width: 767px) {
@@ -1204,21 +1221,31 @@ footer {
   }
   .lien-entreprise {
     width: 100%;
+    margin-left: 0.1em;
   }
   .lien-service {
     width: 100%;
   }
   .lien-contact {
     width: 100%;
+    margin-left: 0.1em;
   }
-
+  .lien-nav {
+    margin-left: 1.5em;
+  }
+  .img-logo-sociaux-l {
+    margin-left: 15em;
+  }
+  .img-logo-sociaux-f {
+    margin-left: 15em;
+  }
   .textMission {
     margin-top: -1em;
   }
   .title-equipe {
-    margin-top: -1em;
-    margin-left: 3em;
-    margin-right: 1em;
+    margin-top: 0.01em;
+    margin-left: em;
+    margin-right: 0.1em;
   }
   .imgDistinction {
     margin-top: 0.5em;
@@ -1315,6 +1342,13 @@ footer {
   .navbar-toggle {
 
   }
+  .textAdresse2 {
+    margin-top: 1em;
+  }
+
+  .navbar-right {
+    width: 100%;
+  }
 }
 @media (max-width: 320px) {
 
@@ -1409,6 +1443,8 @@ footer {
   }
   .navbar-collapse > .navbar-right {
     width: 100%;
-
+  }
+  .textAdresse {
+    font-size: 1px;
   }
 }
