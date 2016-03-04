@@ -1032,6 +1032,9 @@ footer {
 .lien-entreprise {
   width: 300px;
 }
+.lien-nav {
+  margin-left: 5em;
+}
 .lien-service {
   width: 300px;
 }
