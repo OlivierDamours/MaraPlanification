@@ -19,22 +19,43 @@ function DistinctionImage()
     imageBotton.className = "";
     imageBotton.src = "";
     imageTop.style.float = "right";
+    imageTop.style.maxWidth = "400px";
+    imageTop.style.maxHeight = "300px";
+    textDistinction.style.marginRight = "10px";
 
-    textDistinction.style.marginRight = "30px";
-
-    //The screen width will change the image position 
+    //The screen width will change the image position
     if(screen.width >= 990)
     {
       imageTop.style.marginRight = "";
     }
-    else if(screen.width < 990 && screen.width > 640)
+    else if(screen.width < 990 && screen.width > 642)
     {
       imageTop.style.marginRight = "3em";
+      imageTop.style.marginBottom = "3em";
     }
-    else if(screen.width <= 640 && screen.width >= 550)
+    else if(screen.width <= 641 && screen.width >= 550)
     {
+      imageTop.style.maxWidth = "270px";
+      imageTop.style.maxHeight = "180px";
+      imageTop.style.marginRight = "2.6em";
+      imageTop.style.marginLeft = "2.6em";
+      imageTop.style.marginBottom = "2.6em";
+    }
+    else if(screen.width <= 549 && screen.width >= 415)
+    {
+      imageTop.style.maxWidth = "270px";
+      imageTop.style.maxHeight = "180px";
+      imageTop.style.marginRight = "2em";
+      imageTop.style.marginLeft = "1.6em";
+      imageTop.style.marginBottom = "2.6em";
+    }
+    else if (screen.width == 414)
+    {
+      imageTop.style.maxWidth = "200px";
+      imageTop.style.maxHeight = "170px";
+      imageTop.style.marginRight = "2em";
+      imageTop.style.marginLeft = "2em";
 
-      imageTop.style.marginRight = "8em";
     }
     else if(screen.width == 384)
     {
@@ -42,7 +63,9 @@ function DistinctionImage()
     }
     else if(screen.width == 375)
     {
-      imageTop.style.marginRight = "3em";
+      imageTop.style.maxWidth = "190px";
+      imageTop.style.maxHeight = "160px";
+      imageTop.style.marginRight = "1em";
     }
     else if(screen.width == 360)
     {
@@ -50,6 +73,8 @@ function DistinctionImage()
     }
     else if(screen.width == 320)
     {
+      imageTop.style.maxWidth = "150px";
+      imageTop.style.maxHeight = "120px";
       imageTop.style.marginRight = "1em";
     }
 
@@ -69,7 +94,7 @@ function DistinctionImage()
     imageBotton.src = "Images/notre_distinction.jpg";
     boostrapRemoval.className = "col-md-5";
     imageTop.style.float = "";
-    imageBotton.style.marginLeft= "7em";
+    imageBotton.style.marginLeft= "5.5em";
 
     textDistinction.style.marginRight = "";
   }

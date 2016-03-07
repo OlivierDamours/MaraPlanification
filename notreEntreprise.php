@@ -11,7 +11,7 @@
           </div>
         </div>
         <article class="row">
-          <div class="moveText col-xm-9">
+          <div class="moveText-equipe col-xm-9">
           <p><strong><em>Planification Financière Mara inc.</em></strong> a vu le jour grâce à sa fondatrice et présidente Martine Rainville. Malgré
             une vaste étendue des domaines touchant les finances personnelles, Planification Financière Mara inc. a développé
             son expertise spécialement dans la planification des revenus de retraite et la création de richesse. L’entreprise

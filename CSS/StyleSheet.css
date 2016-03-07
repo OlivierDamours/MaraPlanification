@@ -231,14 +231,10 @@
 .carousel-control, .item {
     border-radius: 4px;
 }
-
-}
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
   }
-}
-@media (min-width: 768px) {
   .navbar-header {
     float: left;
   }
@@ -552,7 +548,7 @@
   }
 .format-fb-page {
   width: 100px;
-  margin-top: 10%;
+  margin-top: 0.5%;
 }
 .fb-page {
   width: 500px;
@@ -691,6 +687,9 @@
   color: #666666;
   font-family: adelle;
 }
+.title-reer {
+  margin-top: 1.7em;
+}
 @media (max-width: 1200px) {
   .navbar-nav {
     width: 1105px;
@@ -734,6 +733,18 @@
 
 }
 @media (max-width: 767px) {
+  .title-reer {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+  .title-celi {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+  .title-impot {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
   .navbar-collapse > .navbar-nav {
     border-top-left-radius: 1px;
     width: 105%;
@@ -778,12 +789,7 @@
   }
 }
 @media (max-width: 375px) {
-  .imgDistinction {
-    margin-left: em;
-    margin-bottom: 4em;
-    max-width: 200px;
-    max-height: 150px;
-  }
+
 }
 .font-family-nav {
   font-family: adelle;
@@ -1002,9 +1008,6 @@ footer {
 .text-chantal {
   margin-top: 2em;
 }
-.moveText {
-  margin-top: -3em;
-}
 .title-investisseur {
   margin-top: 1.4em;
   margin-left: 0.04em;
@@ -1185,7 +1188,7 @@ footer {
     margin-top: -17em;
   }
   .title-mission {
-    margin-top: -10em;
+    margin-top: em;
   }
   .textMission {
     margin-top: -1em;
@@ -1198,7 +1201,7 @@ footer {
     margin-top: 30%;
   }
   .imgDistinction {
-    margin-top: 0.5em;
+    margin-right: em;
   }
   .title {
     font-size: 45px;
@@ -1211,6 +1214,9 @@ footer {
   }
 }
 @media (max-width: 767px) {
+  .title-reer {
+    margin-top: 0.3em;
+  }
   .title-distinction {
     font-size: 45px;
     margin-top: 0.01em;
@@ -1316,7 +1322,17 @@ footer {
     margin-left: 1.6em;
   }
 }
+@media (max-width: 414px) {
+  .imgMission {
+    position: relative;
+    right: 10em;
+    max-width: 328px;
+  }
+}
 @media (max-width: 375px) {
+  .title-reer {
+    margin-top: 0.5em;
+  }
   .service-image {
     max-width: 155px;
     max-height: 120px;
@@ -1332,10 +1348,16 @@ footer {
 
   }
   .imgDistinction {
-    max-width: 300px;
-    max-height: 180px;
-    margin-left: 1.5em;
-    margin-top: 1em;
+    max-width: 165px;
+    max-height: 110px;
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+  .textDistinction {
+    margin-top: -2em;
+  }
+  .title-distinction {
+    margin-right: 0.01em;
   }
   .imgMission {
     margin-left: 1.5em;
@@ -1374,15 +1396,22 @@ footer {
     margin-left: 3em;
     margin-right: 3em;
   }
+  .title-investisseur {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+  .title-entreprise {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
   .imgEntreprise {
-    position: relative;
-    right: 8.5em;
-    width: 250px;
+    margin
+    width: 315px;
   }
   .imgInvestisseurs {
-    position: relative;
-    right: 10.5em;
-    width: 250px;
+    margin-right: -4em;
+    margin-left: -3em;
+    width: 307px;
   }
   .navbar-toggle {
 
@@ -1460,7 +1489,7 @@ footer {
   }
   .imgEntreprise {
     position: relative;
-    right: 8.5em;
+    right: em;
     width: 250px;
   }
   .imgInvestisseurs {

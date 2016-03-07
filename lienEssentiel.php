@@ -7,9 +7,9 @@
   <main role="main" class="giveSomeSpace">
     <section class="container">
       <article class="row">
-        <h3 class="col-lg-6">REER</h3>
+        <h3 class="title-reer col-lg-7">REER</h3>
         <div class="row">
-        <div class="moveText col-sm-12">
+        <div class="moveText col-sm-9">
           <p >Afin que votre cotisation au REER soit admissible à l’année d’imposition précédente,
             vous devez verser votre cotisation au plus tard dans les 60 premiers jours de l’année en cours. </p>
           <p>La date limite pour les cotisations au REER pour l’année d’imposition 2015 est le 29 février 2016.</p>
@@ -18,9 +18,9 @@
       </div>
       </article>
       <article class="row">
-        <h3 class="col-lg-12">CELI</h3>
+        <h3 class="title-celi col-lg-7">CELI</h3>
         <div class="row">
-        <table class="col-sm-6">
+        <table class="table-celi col-sm-6">
           <tr>
             <th>Année</th>
             <th>Droits de cotisation à un CELI (plafond)</th>
@@ -53,9 +53,9 @@
       </div>
       </article>
       <article class="row">
-        <h3 class="col-lg-6">Tables d’impôts et autres</h3>
+        <h3 class="title-impot col-lg-7">Tables d’impôts et autres</h3>
         <div class="moveTextURL row">
-          <p class="col-md-8"><a href="http://www.planiguide.ca/tableaux/quebec/">http://www.planiguide.ca/tableaux/quebec/</a></p>
+          <p class="url-impot col-md-8"><a href="http://www.planiguide.ca/tableaux/quebec/">http://www.planiguide.ca/tableaux/quebec/</a></p>
         </div>
       </article>
     </section>
