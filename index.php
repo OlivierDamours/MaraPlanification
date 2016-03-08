@@ -21,7 +21,7 @@
              </article>
              <div class="format-fb-page col-md-4">
                <div class="fb-page"  data-href="https://www.facebook.com/maraplanif/?pnref=lhc"
-                data-width="310" data-height="540" data-small-header="false" data-adapt-container-width="true"
+                data-width="280" data-height="540" data-small-header="false" data-adapt-container-width="true"
                 data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
                   <div class="fb-xfbml-parse-ignore">
                     <blockquote cite="https://www.facebook.com/maraplanif/?pnref=lhc"><a href="https://www.facebook.com/maraplanif/?pnref=lhc">MARA Planification Financière</a></blockquote>
