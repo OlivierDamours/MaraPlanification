@@ -247,7 +247,26 @@ table, .moveText
     height: 140px;
   }
   .navbar-toggle {
-    margin-right: 2em;
+    margin-right: 6em;
+  }
+  .moveTextURL {
+    font-size: 10px;
+    margin-right: 8em;
+    margin-left: -4.5em;
+  }
+  .table-celi {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .navbar-default {
+    height: 134px;
+    width: 100%;
+  }
+  .navbar-toggle {
+    margin-top: 7em;
+  }
+  .navbar-header {
+    height: 135px;
   }
 }
 .infoCenter

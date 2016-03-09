@@ -77,8 +77,9 @@ function DistinctionImage()
     {
       imageTop.style.maxWidth = "150px";
       imageTop.style.maxHeight = "120px";
+      imageTop.style.marginTop = "em";
       imageTop.style.marginRight = "1.1em";
-      imageTop.style.marginLeft = "0.5em";
+      imageTop.style.marginLeft = "em";
     }
 
 
@@ -96,7 +97,7 @@ function DistinctionImage()
     imageBotton.className = "imgDistinction";
     imageBotton.src = "Images/notre_distinction.jpg";
     boostrapRemoval.className = "col-md-5";
-    imageTop.style.float = "";
+    imageTop.style.float = "right";
     imageBotton.style.marginLeft= "5.5em";
 
     textDistinction.style.marginRight = "";

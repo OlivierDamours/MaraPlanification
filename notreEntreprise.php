@@ -10,7 +10,7 @@
             <h3 class="title-equipe title text-title">Notre Équipe</h3>
           </div>
         </div>
-        <article class="row">
+        <article class="text-equipe row">
           <div class="moveText-equipe col-xm-9">
           <p><strong><em>Planification Financière Mara inc.</em></strong> a vu le jour grâce à sa fondatrice et présidente Martine Rainville. Malgré
             une vaste étendue des domaines touchant les finances personnelles, Planification Financière Mara inc. a développé
