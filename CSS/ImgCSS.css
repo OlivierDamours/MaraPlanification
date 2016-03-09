@@ -138,7 +138,7 @@ table, .moveText
     margin-top: 7em;
   }
   .giveSomeSpaceMission {
-    margin-top: 27em;
+    margin-top: 1em;
   }
   .imgInvestisseurs {
     margin-top: 2em;
@@ -171,8 +171,20 @@ table, .moveText
     margin-top: -10em;
     margin-left: 16%;
   }
+  .navbar-brand {
+    margin-top: -0.02em;
+    max-width: 200px;
+    max-height: 150px;
+  }
   .navbar-default {
-    height: 164px;
+    height: 134px;
+    width: 100%;
+  }
+  .navbar-toggle {
+    margin-top: 7em;
+  }
+  .navbar-header {
+    height: 145px;
   }
   .giveSomeSpaceInvestisseur {
     margin-top: 4em;
@@ -182,13 +194,21 @@ table, .moveText
   }
   .imgInvestisseurs {
     margin-top: 2em;
-    margin-left:em;
+    margin-left: em;
   }
   .imgEntreprise {
     margin-left: em;
   }
 }
 @media (max-width: 375px) {
+  .imgInvestisseurs {
+    margin-top: 1em;
+    margin-left: 1.7em;
+    max-width: 300px;
+  }
+  .imgEntreprise {
+    margin-left: 9.9em;
+  }
   .adressContact {
     margin-left: 0.9em;
     height: 160px;
@@ -221,7 +241,13 @@ table, .moveText
     border-bottom-left-radius: 30px;
   }
   .navbar-brand {
+    margin-top: 0.3em;
     margin-left: -0.6em;
+    max-width: 200px;
+    height: 140px;
+  }
+  .navbar-toggle {
+    margin-right: 2em;
   }
 }
 .infoCenter

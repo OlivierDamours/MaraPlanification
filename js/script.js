@@ -30,8 +30,9 @@ function DistinctionImage()
     }
     else if(screen.width < 990 && screen.width > 642)
     {
+      imageTop.style.marginTop = "0.5em";
       imageTop.style.marginRight = "3em";
-      imageTop.style.marginBottom = "3em";
+      imageTop.style.marginBottom = "2em";
     }
     else if(screen.width <= 641 && screen.width >= 550)
     {
@@ -66,6 +67,7 @@ function DistinctionImage()
       imageTop.style.maxWidth = "190px";
       imageTop.style.maxHeight = "160px";
       imageTop.style.marginRight = "1em";
+      imageTop.style.marginBottom = "1em";
     }
     else if(screen.width == 360)
     {
@@ -75,7 +77,8 @@ function DistinctionImage()
     {
       imageTop.style.maxWidth = "150px";
       imageTop.style.maxHeight = "120px";
-      imageTop.style.marginRight = "1em";
+      imageTop.style.marginRight = "1.1em";
+      imageTop.style.marginLeft = "0.5em";
     }
 
 
