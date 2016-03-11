@@ -220,7 +220,7 @@
     margin-left: ;
     margin-right: 0%;
     margin-top: 13%;
-    width: 85.1%;
+    width: 1%;
     height: ;
 }
 .carousel-inner > .item > img {
@@ -311,16 +311,26 @@
   }
 
 }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .carousel-holder {
-    margin-top: 30.4%;
-    max-width: 1070px;
+    margin-top: 22%;
+    width: 800px;
   }
   .carousel-inner > .item > img {
-    max-height: 280px;
-    max-width: 706px;
+    max-height: 350px;
+    max-width: 930px;
   }
+}
+@media (max-width: 991px) {
 
+  .carousel-holder {
+    margin-top: 22%;
+    max-width: 612px;
+  }
+  .carousel-inner > .item > img {
+    max-height: 350px;
+    max-width: 703px;
+  }
   .img-logo-sociaux-f {
     margin-top: 1em;
     margin-left: 1em;
@@ -372,11 +382,11 @@
   }
   .carousel-holder {
     margin-top: 28%;
-    max-width: 670px;
+    max-width: 612px;
   }
   .carousel-inner > .item > img {
     max-height: 300px;
-    max-width: 720px;
+    max-width: 703px;
   }
   .navbar-nav {
     width: 100px;
@@ -387,9 +397,9 @@
 @media (max-width: 767px) {
   .carousel-holder {
     margin-top: 18%;
-    width: 665px;
+    max-width: 662px;
     margin-left: -2.2em;
-    margin-right: -1em;
+    margin-right: em;
   }
   .carousel-inner > .item > img {
     height: 300px;
@@ -467,7 +477,7 @@
 }
 @media (max-width: 375px) {
   .carousel-holder {
-    margin-top: 46%;
+    margin-top: 39%;
     width: 338.5px;
   }
   .carousel-inner > .item > img {
@@ -487,7 +497,7 @@
 }
 @media (max-width: 320px) {
   .carousel-holder {
-    margin-top: 53.2%;
+    margin-top: 46.2%;
     width: 293px;
   }
   .carousel-inner > .item > img {
@@ -549,14 +559,10 @@
     width: 100%;
   }
 .format-fb-page {
-  width: 100px;
-  margin-top: 0.5%;
+  margin-top: 7.9%;
+
 }
-.fb-page {
-  width: 500px;
-  margin-top: 6.5em;
-  margin-left:-1%;
-}
+
 .nav {
   background-color: whitesmoke;
 }
@@ -703,6 +709,10 @@
   }
 }
 @media (max-width: 1199px) {
+  .format-fb-page {
+    margin-top: 9.9%;
+
+  }
   .navbar-nav {
     margin-left:0.15em;
     width: 928px;
@@ -945,6 +955,7 @@ footer {
 }
 .title {
   font-size: 45px;
+  font-family: adelle;
   margin-top: 1em;
   margin-right: 0.1em;
   margin-left: 0.01em;
@@ -972,6 +983,7 @@ footer {
 }
 .sous-title {
   font-size: 20px;
+  font-family: adelle;
   text-decoration: underline;
 }
 .spaceAdressContact {
@@ -1042,7 +1054,8 @@ footer {
 }
 .lien-entreprise {
   margin-left: 2em;
-  padding-top: -3em;
+  margin-top: 0.02em;
+  padding-top: 0.2em;
   width: 300px;
   height: px;
 }
@@ -1051,10 +1064,14 @@ footer {
 }
 .lien-service {
   margin-left: em;
+  margin-top: 0.02em;
+  padding-top: 0.2em;
   width: 300px;
 }
 .lien-contact {
   margin-left:em;
+  margin-top: 0.02em;
+  padding-top: 0.2em;
   width: 300px;
 }
 .service-image {
@@ -1382,7 +1399,7 @@ footer {
     margin-left: 2.5em;
   }
   .fb-page {
-    margin-left: 4.7em;
+    margin-left: 5em;
   }
 }
 @media (max-width: 414px) {
@@ -1396,12 +1413,16 @@ footer {
   .title-reer {
     margin-top: 0.5em;
   }
+  .title.equipe {
+
+  }
   .service-image {
-    max-width: 145px;
+    max-width: 153px;
     max-height: 120px;
   }
   .entreprise-image {
-    max-width: 145px;
+    margin-left: 1em;
+    max-width: 153px;
     max-height: 120px;
   }
   .fb-page {
@@ -1461,8 +1482,12 @@ footer {
     margin-right: 3em;
   }
   .title-investisseur {
+    margin-top: 0.5em;
     margin-right: 0.5em;
     margin-left: 0.5em;
+  }
+  .container-entreprise {
+    margin-top: -14em; 
   }
   .title-entreprise {
     margin-right: 0.5em;
@@ -1470,13 +1495,22 @@ footer {
   }
   .imgEntreprise {
     position: relative;
-    right: 1em;
-    width: 315px;
+    right: 10em;
+    top: -156.5em;
+    width: 295px;
+  }
+  .serviceEntreprise  {
+    margin-top: 9em;
   }
   .imgInvestisseurs {
-    margin-right: -4em;
-    margin-left: -3em;
-    width: 307px;
+  position: relative;
+  left: -0.5em;
+  top: -163.5em;
+  width: 335px;
+  }
+  .serviceInvestisseur {
+    margin-top: 9.7em;
+    margin-left: 0.7em;
   }
   .navbar-toggle {
 
@@ -1508,18 +1542,10 @@ footer {
     margin-right: 0.5em;
     margin-left: 0.5em;
   }
-}
-@media (max-width: 364px) {
-  .service-image {
-    max-width: 147px;
-    max-height: 105px;
-    margin-left: 0.5em;
-    margin-right
-  }
-  .entreprise-image {
-    max-width: 147px;
-    max-height: 105px;
-    margin-left: 1.1em;
+
+  .text-equipe {
+    margin-right: -0.5em;
+    margin-left: -0.5em;
   }
 }
 @media (max-width: 320px) {
@@ -1537,6 +1563,9 @@ footer {
     margin-left: 0.7em;
     margin-right: 0.7em;
   }
+  .title-investisseur {
+    margin-top: 0.6em;
+  }
   .service-image {
     max-width: 129px;
     max-height: 90px;
@@ -1550,6 +1579,7 @@ footer {
     margin-left: 1em;
   }
   .fb-page {
+    margin-top: 2em;
     margin-left: 0.5em;
   }
   .navbar-toggle {
@@ -1591,11 +1621,20 @@ footer {
     width: 230px;
     height: 130px;
   }
+  .title {
+    text-align: center;
+  }
   .title-mission {
     margin-top: -10.5em;
   }
+  .imgMission {
+    position: relative;
+    right: 11em;
+    top: -32.8em;
+    width: 260px;
+  }
   .textMission {
-    margin-top: -1em;
+    margin-top: 9em;
   }
   .imgEquipe {
     margin-left: 4.8em;
@@ -1620,13 +1659,25 @@ footer {
     margin-right: 3em;
   }
   .imgEntreprise {
-    margin-left: 1em;
-    width: 250px;
+    position: relative;
+    right: 10em;
+    top: -179em;
+    width: 260px;
+  }
+  .serviceEntreprise {
+    margin-top: 7.8em;
+  }
+  .container-entreprise {
+    margin-top: -12em;
   }
   .imgInvestisseurs {
     position: relative;
-    right: 9em;
-    width: 250px;
+    right: 0.7em;
+    top: -181.8em;
+    width: 260px;
+  }
+  .serviceInvestisseur {
+    margin-top: 8em;
   }
   .navbar-toggle {
     margin-right: 6em;

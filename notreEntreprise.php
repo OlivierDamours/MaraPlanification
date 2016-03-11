@@ -28,7 +28,7 @@
                 <img class="imgText imgEquipe" src="Images/martineRainville.jpg" alt="Martine Rainville" />
               </div>
               <div class="text-martine text col-md-6">
-                <p><strong><em>Martine Rainville</em></strong>, Panificateur Financier depuis 1994, membre de l&#8217;<strong><em>IQPF</em></strong>, représentante en
+                <p><strong><u><em>Martine Rainville</em></u></strong>, Panificateur Financier depuis 1994, membre de l&#8217;<strong><em>IQPF</em></strong>, représentante en
                   épargne collective auprès de Mérici Services Financiers et possède plus de 30 ans d’expérience
                   dans le domaine des services financiers. Depuis plus de 20 ans, elle agit à titre de consultante
                   en planification des revenus de retraite auprès de plusieurs entreprises publiques, parapubliques
@@ -40,7 +40,7 @@
                   <img class="imgText imgEquipe" src="Images/sarahVerreault.jpg" alt="Sarah Verreault" />
                 </div>
                 <div class="text-sarah text col-md-6">
-              <p><strong><em>Sarah Verreault</em></strong>, représentante en épargne collective auprès de Mérici Services Financiers, détient un
+              <p><strong><u><em>Sarah Verreault</em></u></strong>, représentante en épargne collective auprès de Mérici Services Financiers, détient un
                 baccalauréat en administration des affaires et s’est spécialisée en gestion des risques et assurances.
                 Elle possède également le titre <strong><em>CRM</em></strong> qui lui procure la désignation de
                 <strong><em>Gestionnaire de Risque Canadien</em></strong>.
@@ -52,7 +52,7 @@
               <img class="imgText imgEquipe-chantal" src="Images/chantalBilodeau.jpg" alt="Chantal Bilodeau" />
             </div>
             <div class="text-chantal text col-md-6">
-              <p><strong><em>Chantal Bilodeau</em></strong>, adjointe administrative,
+              <p><strong><u><em>Chantal Bilodeau</em></u></strong>, adjointe administrative,
                  est responsable du service à la clientèle et du suivi depuis plus de 17 ans.</p>
           </div>
         </div>

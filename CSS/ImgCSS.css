@@ -107,7 +107,7 @@ table, .moveText
 @media (max-width: 1199px) {
   #entreprise {
     position: absolute;
-    top:257%;
+    top:224%;
   }
   .giveSomeSpaceMission {
     margin-top: -2em;
@@ -201,6 +201,10 @@ table, .moveText
   }
 }
 @media (max-width: 375px) {
+  #entreprise {
+    position: absolute;
+    top: 413%;
+  }
   .imgInvestisseurs {
     margin-top: 1em;
     margin-left: 1.7em;
@@ -220,11 +224,19 @@ table, .moveText
     margin-top: 1em;
     margin-left: -20em;
   }
+  .moveText-equipe {
+    margin-top: -.5em;
+    margin-left: 0.02em;
+  }
 }
 @media (max-width: 320px) {
   #mission {
     position: absolute;
-    top: 240%;
+    top: 270%;
+  }
+  #entreprise {
+    position: absolute;
+    top: 500%;
   }
   .adressContact {
     width: 300px;

@@ -15,7 +15,7 @@
         </div>
         <article class="row">
           <div class="col-md-7">
-            <p>La planification de votre futur financier est un incontournable. C’est pourquoi nous sommes là pour vous
+            <p class="serviceInvestisseur">La planification de votre futur financier est un incontournable. C’est pourquoi nous sommes là pour vous
               aider à démystifier toutes les complexités de ce secteur et répondre à vos questionnements. </p>
             <p class="sous-title">Voilà comment nous procédons :</p>
             <ol>
@@ -76,7 +76,7 @@
 
         </article>
       </div>
-      <div>
+      <div class="container-entreprise">
         <div id="entreprise"></div>
         <div class="row">
           <div class="col-xl-6">

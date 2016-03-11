@@ -14,8 +14,8 @@
                   planification des revenus de retraite, la création de richesse et le « coaching financier ». Nous vous invitons
                    à parcourir davantage notre site internet afin de découvrir l’étendue de nos services-conseils. Au plaisir de
                    vous conseiller !</p>
-                <p class="row"><a class="col-xm-4" href="notreEntreprise.html"><img class=" entreprise-image" src="Images/planeteVrmBelle-2.jpg"></a>
-                <a class="col-xm-4 service-image" href="serviceConseil.html">
+                <p class="row"><a class="col-xm-4" href="notreEntreprise.php"><img class=" entreprise-image" src="Images/planeteVrmBelle-2.jpg"></a>
+                <a class="col-xm-4 service-image" href="serviceConseil.php">
                 <img class="service-image" src="Images/notreEquipe.jpg"></a></p>
              </div>
              </article>
