@@ -8,7 +8,6 @@
 
     <main class="giveSomeSpace container" role="main">
       <section>
-        <div>
           <div  class="row">
             <div class="emphaseTitre col-lg-6">
               <h3 class="title-distinction title text-title">Notre Distinction</h3>

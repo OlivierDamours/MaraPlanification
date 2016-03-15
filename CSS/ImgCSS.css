@@ -123,11 +123,11 @@ table, .moveText
 {
   #entreprise {
     position: absolute;
-    top:250%;
+    top:240%;
   }
   #mission {
     position: absolute;
-    top: 85%;
+    top: 93%;
   }
   .googleMapsCentered {
     width: 420px;
@@ -149,6 +149,10 @@ table, .moveText
   }
 }
 @media (max-width: 767px) {
+  #mission {
+    position: absolute;
+    top: 101%;
+  }
   .moveText {
     margin-left: 2.5em;
     margin-right: 2.5em;
@@ -199,11 +203,19 @@ table, .moveText
   .imgEntreprise {
     margin-left: em;
   }
+
 }
 @media (max-width: 375px) {
+  #mission {
+    position: absolute;
+    top: 212%;
+  }
   #entreprise {
     position: absolute;
     top: 413%;
+  }
+  .text-equipe {
+    margin-left: 0.2em;
   }
   .imgInvestisseurs {
     margin-top: 1em;
@@ -214,12 +226,13 @@ table, .moveText
     margin-left: 9.9em;
   }
   .adressContact {
+    margin-top: ;
     margin-left: 0.9em;
     height: 160px;
     width: 350px;
   }
   .googleMapsCentered {
-    max-height: 120px;
+    max-height: 140px;
     max-width: 378px;
     margin-top: 1em;
     margin-left: -20em;
@@ -227,6 +240,9 @@ table, .moveText
   .moveText-equipe {
     margin-top: -.5em;
     margin-left: 0.02em;
+  }
+  .giveSomeSpace {
+    margin-top: 11em;
   }
 }
 @media (max-width: 320px) {

@@ -530,7 +530,7 @@
 }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 1800px;
+  max-height: 100%;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
@@ -799,6 +799,10 @@
   }
   .navbar-default {
     height: 150px;
+  }
+  #mission {
+    position: absolute;
+    top: 20%;
   }
 }
 
@@ -1130,7 +1134,7 @@ footer {
   }
   .lien-contact {
     padding-left: 1em;
-    width: 203px;
+    width: 223px;
   }
   .imgMission {
     margin-top: -1em;
@@ -1262,10 +1266,10 @@ footer {
   }
   .navbar-collapse > .navbar-nav {
     height: 100%;
-    width: 104%;
+    width: 767px;
   }
   .navbar-collapse > .navbar-right {
-    width: 104%;
+    width: 767px;
   }
   .text-martine {
     margin-left: 17.5em;
@@ -1416,6 +1420,9 @@ footer {
   .title.equipe {
 
   }
+  .text-equipe {
+    margin-left: 1em;
+  }
   .service-image {
     max-width: 153px;
     max-height: 120px;
@@ -1441,6 +1448,7 @@ footer {
     margin-top: -2em;
   }
   .title-distinction {
+    margin-top: 1em;
     margin-right: 0.01em;
   }
   .imgMission {
@@ -1467,19 +1475,22 @@ footer {
     margin-left: 6.8em;
   }
   .text-martine {
+    text-align: center;
     margin-top: 1.5em;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
   }
   .text-sarah {
+    text-align: center;
     margin-top: 1.5em;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
   }
   .text-chantal {
+    text-align: center;
     margin-top: -2.5em;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
   }
   .title-investisseur {
     margin-top: 0.5em;
@@ -1487,7 +1498,7 @@ footer {
     margin-left: 0.5em;
   }
   .container-entreprise {
-    margin-top: -14em; 
+    margin-top: -14em;
   }
   .title-entreprise {
     margin-right: 0.5em;
